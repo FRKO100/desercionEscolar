@@ -1,0 +1,35 @@
+/* Paleta de colores sujeta a cambios */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --primary-color: #007bff; 
+    --secondary-color: #6c757d;
+    --accent-color: #ffc107;
+    --profile-color: white; 
+    --nav-font: "Courier Prime", monospace;
+}
+.user-icon{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--primary-color);
+    margin-right: 20px;
+    padding: 1px 10px 1px 10px;
+}
+
+.user-icon > span {
+    color: var(--profile-color);
+}
+
+nav{
+    min-height: 10vh;
+}
+
+.nav-item {
+    font-family: var(--nav-font);
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.nav-link{
+    cursor: pointer;
+}
