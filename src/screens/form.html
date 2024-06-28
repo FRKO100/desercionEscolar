@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desertion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/estilos2.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <span>Desercion</span>Escolar</a>
+    
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="fa fa-bars"></label>
+    
+            <nav class="navbar">
+                <a href="#inicio">inicio</a>
+                <a href="#detalles">detalles</a>
+                <a href="#acerca de">acerca de</a>
+                <!--<a href="#opiniones">opiniones</a>-->
+                <!--<a href="#contactos">contactos</a>-->
+            </nav>
+      </header> 
+    
+
+  <section id="from">
+    <div class="container pt-4 contentF">
+
+        <form>
+            <div class="form-group">
+                <label for="select1">¿En qué medida los costos de pasajes y otros gastos escolares influyeron o están influyendo en tu decisión de abandonar la carrera?</label>
+                <select class="form-control" id="select1">
+                    <option value="5">Mucho</option>
+                    <option value="4">Algo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Poco</option>
+                    <option value="1">Nada</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select2">¿Qué tan difícil es o fue cubrir los gastos adicionales como materiales, libros, y transporte?</label>
+                <select class="form-control" id="select2">
+                    <option value="5">Muy Difícil</option>
+                    <option value="4">Algo Difícil</option>
+                    <option value="3">Neutral</option>
+                    <option value="2"> Poco Difícil</option>
+                    <option value="1">Nada Difícil</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select3">¿Tuviste o tienes dificultades para mantener un equilibrio entre los problemas financieros que presentas/presentaste y tus estudios?</label>
+                <select class="form-control" id="select3">
+                    <option value="5">Siempre</option>
+                    <option value="4">A menudo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2"> Raramente</option>
+                    <option value="1">Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select4">¿Recibiste algún tipo de ayuda financiera o beca durante tus estudios?</label>
+                <select class="form-control" id="select4">
+                    <option value="2">Sí, suficiente</option>
+                    <option value="4">Sí, pero insuficiente</option>
+                    <option value="3">Neutral</option>
+                    <option value="5">No, aunque lo necesitaba</option>
+                    <option value="1">No, no lo necesitaba</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select5">¿Cómo calficarías la calidad de la enseñanza recibida en tu institución?</label>
+                <select class="form-control" id="select5">
+                    <option value="1">Excelente</option>
+                    <option value="2">Buena</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Regular</option>
+                    <option value="5">Mala</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select6">¿Tuviste problemas con la carga académica o la dificultad de las materias?</label>
+                <select class="form-control" id="select6">
+                    <option value="5">Siempre</option>
+                    <option value="4">A menudo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2"> Raramente</option>
+                    <option value="1">Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select7">¿Cómo fue tu relación con los docentes y el personal académico?</label>
+                <select class="form-control" id="select7">
+                    <option value="1">Muy Buena</option>
+                    <option value="2">Buena</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Regular</option>
+                    <option value="5">Mala</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select8">¿Las instalaciones y recursos educativos (biblioteca, laboratorios, etc.) fueron adecuados para tus necesidades?</label>
+                <select class="form-control" id="select8">
+                    <option value="1">Totalmente adecuados</option>
+                    <option value="2">Adecuados</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Poco Adecuados</option>
+                    <option value="5">Inadecuados</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select9">¿Qué tan afectado te sentiste por el estrés o la presión académica durante tus estudios?</label>
+                <select class="form-control" id="select9">
+                    <option value="5">Muy afectado</option>
+                    <option value="4">Algo afectado</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Poco afectado</option>
+                    <option value="1">Nada afectado</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select10">¿Experimentaste sentimientos de desmotivación o falta de interés en tu carrera?</label>
+                <select class="form-control" id="select10">
+                    <option value="5">Siempre</option>
+                    <option value="4">A menudo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2"> Raramente</option>
+                    <option value="1">Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select11">¿Buscaste o recibiste apoyo psicológico o emocional durante tu tiempo en la universidad?</label>
+                <select class="form-control" id="select11">
+                    <option value="2">Sí y fue útil</option>
+                    <option value="4">Sí, pero no fue útil</option>
+                    <option value="3">Neutral</option>
+                    <option value="5">No, aunque lo necesitaba</option>
+                    <option value="1">No, no lo necesitaba</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select12">¿La carga emocional de tus estudios afectó tu salud mental o bienestar personal?</label>
+                <select class="form-control" id="select12">
+                    <option value="5">Mucho</option>
+                    <option value="4">Algo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Poco</option>
+                    <option value="1">Nada</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select13">¿Tus responsabilidades familiares están influyendo o influyeron en tu decisión de abandonar la carrera?</label>
+                <select class="form-control" id="select13">
+                    <option value="5">Mucho</option>
+                    <option value="4">Algo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Poco</option>
+                    <option value="1">Nada</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select14">¿Contaste con el apoyo de tu familia para continuar tus estudios?</label>
+                <select class="form-control" id="select14">
+                    <option value="1">Siempre</option>
+                    <option value="2">A menudo</option>
+                    <option value="3">Neutral</option>
+                    <option value="4"> Raramente</option>
+                    <option value="5">Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select15">¿Los problemas o conflictos familiares afectaron tu rendimiento académico?</label>
+                <select class="form-control" id="select15">
+                    <option value="5">Siempre</option>
+                    <option value="4">A menudo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2"> Raramente</option>
+                    <option value="1">Nunca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="select16">¿Consideras que las expectativas o presiones familiares contribuyeron o están contribuyendo a tu decisión de dejar los estudios?</label>
+                <select class="form-control" id="select16">
+                    <option value="5">Mucho</option>
+                    <option value="4">Algo</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Poco</option>
+                    <option value="1">Nada</option>
+                </select>
+            </div>
+        </form>
+        
+    </div>
+</section>
+    
+</body>
+</html>
